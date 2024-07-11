@@ -35,8 +35,8 @@ h3 {
   border-radius: 5px;
   max-width: max-content;
 }
-.btn:hover{
-    border-color: aquamarine;
+.btn:hover {
+  border-color: aquamarine;
 }
 .bottomBorderBtn {
   border-bottom: 1px solid black;
@@ -53,7 +53,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffffdb;
+  background: #ffffffde;
 }
 
 .wrapper {
@@ -97,7 +97,25 @@ h3 {
 .heroImg {
   width: 400px;
   box-shadow: -2px 22px 23px -8px #828ea6;
+  animation-name: heroImgAnimation;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  
 }
+@keyframes heroImgAnimation {
+  0%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50%{
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
 .heroBtn {
   color: white;
   background: black;

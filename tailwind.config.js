@@ -11,7 +11,7 @@ module.exports = {
       center: true,
       padding: {
         DEFAULT: '5%',
-        sm: '2rem',
+        sm: '1rem',
       },
     },
     extend: {
@@ -28,7 +28,6 @@ module.exports = {
         'custom-green': '#ABEF5F',
         'custom-half-green': 'rgba(172, 239, 95, 0.7)',
         'white':'#ffffff',
-        'custom-white': '#f5f5f5',
         'custom-ash': '#f1f1f1',
       },
     },

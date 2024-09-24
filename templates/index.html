@@ -45,12 +45,112 @@
 
     <!-- js -->
 
-    <script src="../static/javaScript/index.js"></script>
+    <script src="../static/javaScript/index.js" defer></script>
 
 </head>
 <body>
 
-    <h1 class="hover:text-custom-green">Working</h1>
+  <header class="headerSection sticky top-0 w-full z-50">
+    <nav class="bg-[#fdf5e6bc]">
+      <div class="container flex items-center justify-between  py-[24px]">
+        <a href="./faq.html" class="primaryButton bg-custom-green"><h6>FAQ</h6></a>
+  
+        <a href="./index.html" class="flex items-center gap-3 ">
+          <img src="../static/assets/logo.png" alt="Logo" class="w-[45px] aspect-square">
+          <h6 class="text-nowrap hidden sm:inline-block">Donate Bangladesh</h6>
+        </a>
+  
+        <div class="flex items-center gap-[10px]">
+          <img src="../static/assets/coin.png" alt="Coin" class="w-[28px] aspect-square">
+          <div class="flex items-center gap-1 text-[rgba(0,0,0,0.7)]">
+            <h6 class="availableAmount">5500</h6>
+            <h6>BDT</h6>
+          </div>
+        </div>
+  
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="navMenus flex items-center justify-center gap-4 py-[35px]">
+        <a href="./index.html" class="pageButton bg-custom-green"><h6>Donation</h6></a>
+        <a href="./history.html" class="pageButton bg-custom-green"><h6>History</h6></a>
+      </div>
+    </section>
+
+  </header>
+
+  <section class="allContent my-8">
+    <div class="contentWrapper container flex flex-col gap-6">
+      <div class="border border-[rgba(0,0,0,0.3)] rounded-xl p-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div class="w-full rounded-xl aspect-[3/2] md:aspect-[0]" style="background: url(../static/assets/noakhali.png); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
+        <div class="flex flex-col gap-8 md:gap-16">
+
+          <div class="px-4 py-2 bg-custom-ash w-fit rounded-md flex items-center gap-[10px]">
+            <img src="../static/assets/coin.png" alt="Coin" class="w-[24px] aspect-square">
+            <div class="flex items-center gap-1 text-[rgba(0,0,0,0.7)]">
+              <b class="totalDonation">500</b>
+              <b>BDT</b>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h6>Donate for Flood at Noakhali, Bangladesh</h6>
+            <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+            <input type="number" min="1" name="amountDonating" id="amountDonating" placeholder="Write Donation Amount" class="input input-bordered bg-transparent w-full">
+            <a href="./history.html" class="ConfirmDonation primaryButton bg-custom-green text-center"><h6>Donate Now</h6></a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="border border-[rgba(0,0,0,0.3)] rounded-xl p-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div class="w-full rounded-xl aspect-[3/2] md:aspect-[0]" style="background: url(../static/assets/feni.png); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
+        <div class="flex flex-col gap-8 md:gap-16">
+
+          <div class="px-4 py-2 bg-custom-ash w-fit rounded-md flex items-center gap-[10px]">
+            <img src="../static/assets/coin.png" alt="Coin" class="w-[24px] aspect-square">
+            <div class="flex items-center gap-1 text-[rgba(0,0,0,0.7)]">
+              <b class="totalDonation">850</b>
+              <b>BDT</b>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h6>Donate for Flood Relief in Feni,Bangladesh</h6>
+            <p> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+            <input type="number" min="1" name="amountDonating" id="amountDonating" placeholder="Write Donation Amount" class="input input-bordered bg-transparent w-full">
+            <a href="./history.html" class="ConfirmDonation primaryButton bg-custom-green text-center"><h6>Donate Now</h6></a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="border border-[rgba(0,0,0,0.3)] rounded-xl p-6 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <div class="w-full rounded-xl aspect-[3/2] md:aspect-[0]" style="background: url(../static/assets/quota-protest.png); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
+        <div class="flex flex-col gap-8 md:gap-16">
+
+          <div class="px-4 py-2 bg-custom-ash w-fit rounded-md flex items-center gap-[10px]">
+            <img src="../static/assets/coin.png" alt="Coin" class="w-[24px] aspect-square">
+            <div class="flex items-center gap-1 text-[rgba(0,0,0,0.7)]">
+              <b class="totalDonation">1000</b>
+              <b>BDT</b>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h6>Aid for Injured in the Quota Movement</h6>
+            <p> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
+            <input type="number" min="1" name="amountDonating" id="amountDonating" placeholder="Write Donation Amount" class="input input-bordered bg-transparent w-full">
+            <a href="./history.html" class="ConfirmDonation primaryButton bg-custom-green text-center"><h6>Donate Now</h6></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="h-[100px] bg-[#fdf5e6bc]"></footer>
     
 </body>
 </html>

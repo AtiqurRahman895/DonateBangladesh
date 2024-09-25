@@ -7460,6 +7460,12 @@ html:has(.drawer-open.drawer-open){
 .w-\[48px\]{
   width: 48px;
 }
+.w-\[35\]{
+  width: 35;
+}
+.w-\[35px\]{
+  width: 35px;
+}
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -8336,6 +8342,9 @@ html:has(.drawer-open.drawer-open){
 .p-6{
   padding: 1.5rem;
 }
+.p-4{
+  padding: 1rem;
+}
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -8949,6 +8958,9 @@ html:has(.drawer-open.drawer-open){
   .sm\:inline-block{
     display: inline-block;
   }
+  .sm\:w-\[45px\]{
+    width: 45px;
+  }
   .sm\:underline{
     text-decoration-line: underline;
   }
@@ -8965,6 +8977,12 @@ html:has(.drawer-open.drawer-open){
   }
   .md\:gap-8{
     gap: 2rem;
+  }
+  .md\:gap-6{
+    gap: 1.5rem;
+  }
+  .md\:p-6{
+    padding: 1.5rem;
   }
 }
 @media (prefers-color-scheme: dark){

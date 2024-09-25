@@ -64,12 +64,15 @@
     backdrop-filter: blur(20px);
   }
   .primaryButton{
-    @apply px-7 py-2 bg-custom-green rounded-md duration-500 hover:bg-transparent hover:border hover:border-[rgba(0,0,0,0.3)]
+    @apply px-6 py-2 bg-custom-green rounded-md duration-500 hover:bg-transparent hover:border hover:border-[rgba(0,0,0,0.3)]
   }
-  .pageButton{
+  .tobButton{
     @apply px-7 py-2 rounded-md duration-500 bg-transparent hover:bg-custom-ash border border-[rgba(0,0,0,0.3)]
   }
-  .activePageButton{
-    @apply bg-custom-green border-none hover:bg-custom-green
+  .tobButton:has(input:checked){
+    @apply bg-custom-green border-none
   }
+  /* .activePageButton{
+    @apply bg-custom-green border-none hover:bg-custom-green
+  } */
 }

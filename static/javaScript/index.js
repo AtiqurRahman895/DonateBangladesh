@@ -51,7 +51,7 @@ const historyWrapper = document.querySelector('.historyWrapper');
 
 let addNoDonation=()=>{
   if(!historyWrapper.hasChildNodes()){
-    const heading = document.createElement('h4');
+    const heading = document.createElement('h2');
     heading.textContent = `No donations have been received yet !`;
     heading.className = 'noDonation';
   
@@ -102,7 +102,7 @@ confirmDonation.forEach((eachConfirmDonation,index)=>{
           alert(`You don't have sufficient balance. your current balance is less then ${amountDonating[index].value} BDT`)
         }else{
           document.querySelector(`.confirmatiionModal`).open=true
-          document.querySelector(`.donationMadalInfo`).innerText=`You have donated ${amountDonating[index].value} take for humanity`
+          document.querySelector(`.donationMadalInfo`).innerText=`You have donated ${amountDonating[index].value} BDT for humanity`
           // alert(`You have donated ${amountDonating[index].value} take for humanity`)
           totalDonation[index].innerText=Number(totalDonation[index].innerText) + Number(amountDonating[index].value)
           availableAmount.innerText=Number(availableAmount.innerText) - Number(amountDonating[index].value)

@@ -8779,6 +8779,19 @@ html:has(.drawer-open.drawer-open){
   padding-bottom: 0.5rem;
   transition-duration: 500ms;
 }
+.pageButton:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 241 241 / var(--tw-bg-opacity));
+}
+.activePageButton{
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(171 239 95 / var(--tw-bg-opacity));
+}
+.activePageButton:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(171 239 95 / var(--tw-bg-opacity));
+}
 @media (hover:hover){
   .table .\*\:hover > *tr:hover,
   .table .\*\:hover > *tr:nth-child(even):hover{

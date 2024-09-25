@@ -12,4 +12,15 @@ window.addEventListener(`scroll`, () => {
     }
   });
 
+// change pageButton color based on current pathname
+
+  const currentPage = window.location.pathname;
+
+  if (currentPage.includes('index.html')) {
+    document.querySelector('.pageButton[href="./index.html"]').classList.add(`activePageButton`)
+  } else if (currentPage.includes('history.html')) {
+    document.querySelector('.pageButton[href="./history.html"]').classList.add(`activePageButton`)
+  }
+
+
 

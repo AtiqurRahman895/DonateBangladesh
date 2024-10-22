@@ -23,7 +23,7 @@ if (currentPage.includes('index.html')) {
   document.querySelector('.pageButton[href="./faq.html"]').remove()
 }
 
-// change tobButton color 
+// change tabButton color 
 
 const tabToggler= document.querySelectorAll(`.tabToggler`)
 const tabContent= document.querySelectorAll(`.tabContent`)
